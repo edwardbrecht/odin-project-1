@@ -96,7 +96,35 @@ header ul a {
 .info-section {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     flex: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.info-section > h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--quote-txt);
+    margin-bottom: 50px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;    
+}
+
+.info-item {
+    width: 150px;
+}
+
+.info-item img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--blue-primary);
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .quote-section {
