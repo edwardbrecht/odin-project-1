@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --bg-dark: #1f2937;
+    --light-primary: #f9faf8;
+    --light-secondary: #e5e7eb;
+    --blue-primary: #3882f6;
+    --quote-bg: #e5e7eb;
+    --quote-txt: #1f2937;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-dark);
+}
+
+header h2 {
+    font-size: 24px;
+    color: var(--light-primary)
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul a {
+    font-size: 18px;
+    color: var(--light-secondary);
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.hero {
+    background-color: var(--bg-dark);
+    display: flex;
+    flex: auto;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--light-primary)
+}
+
+.hero p {
+    font-size: 18px;
+    color: var(--light-secondary)
+}
+
+.hero button {
+    background-color: var(--blue-primary);
+    color: var(--light-primary)
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.quote-section {
+    flex: auto;
+    background-color: var(--quote-bg);
+}
+
+.signup-section {
+    flex: auto;
+}
