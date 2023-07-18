@@ -17,12 +17,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: var(--bg-dark);
+    padding: 20px 100px;
 }
 
 header h2 {
@@ -33,6 +35,7 @@ header h2 {
 header ul {
     list-style: none;
     display: flex;
+    gap: 15px;
 }
 
 header ul a {
@@ -50,24 +53,44 @@ header ul a {
 .hero {
     background-color: var(--bg-dark);
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex: auto;
-    padding: 50px;
+    gap: 30px;
+    padding: 50px 100px;
 }
 
-.hero h1 {
+.hero-txt {
+    flex: 1 1 0;
+}
+
+.hero-txt h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: var(--light-primary)
+    color: var(--light-primary);
 }
 
-.hero p {
+.hero-txt p {
     font-size: 18px;
-    color: var(--light-secondary)
+    color: var(--light-secondary);
+    margin: 15px 0px;
 }
 
-.hero button {
+.hero-txt button {
     background-color: var(--blue-primary);
-    color: var(--light-primary)
+    color: var(--light-primary);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.hero > img {
+    flex: 1 1 0;
+    background-color: var(--quote-bg);
+    color: var(--light-secondary);
+    height: 250px;
 }
 
 .info-section {
