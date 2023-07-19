@@ -60,7 +60,7 @@ header ul a {
     align-items: center;
     flex: 1 1 auto;
     gap: 30px;
-    padding: 50px 100px;
+    padding: 45px 100px;
 }
 
 .hero-txt {
@@ -90,10 +90,10 @@ header ul a {
 }
 
 .hero > img {
-    flex: 1 1 0;
+    height: 220px;
+    width: 360px;
     background-color: var(--quote-bg);
     color: var(--light-secondary);
-    height: 250px;
 }
 
 .info-section {
@@ -102,7 +102,7 @@ header ul a {
     justify-content: space-evenly;
     flex: auto;
     text-align: center;
-    padding: 50px;
+    padding: 45px;
     background-color: white;
 }
 
@@ -134,7 +134,7 @@ header ul a {
 .quote-section {
     flex: auto;
     background-color: var(--quote-bg);
-    padding: 50px 200px;
+    padding: 45px 200px;
 }
 
 .quote {
@@ -152,7 +152,7 @@ header ul a {
 
 .signup-section {
     flex: auto;
-    padding: 50px;
+    padding: 45px;
     background-color: white;
 }
 
