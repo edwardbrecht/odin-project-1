@@ -17,7 +17,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
 }
 
 header {
@@ -55,7 +58,7 @@ header ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: auto;
+    flex: 1 1 auto;
     gap: 30px;
     padding: 50px 100px;
 }
@@ -100,6 +103,7 @@ header ul a {
     flex: auto;
     text-align: center;
     padding: 50px;
+    background-color: white;
 }
 
 .info-section > h2 {
@@ -130,8 +134,58 @@ header ul a {
 .quote-section {
     flex: auto;
     background-color: var(--quote-bg);
+    padding: 50px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--quote-txt)
+}
+
+.author {
+    text-align: right;
+    padding-right: 30px;
+    font-weight: bold;
 }
 
 .signup-section {
     flex: auto;
+    padding: 50px;
+    background-color: white;
+}
+
+.signup-container {
+    background-color: var(--blue-primary);
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px;
+}
+
+.signup-text h3 {
+    color: var(--light-primary);
+}
+
+.signup-text p {
+    color: var(--light-secondary);
+}
+
+.signup-container button {
+    background-color: var(--blue-primary);
+    border: 2px solid var(--light-primary);
+    border-radius: 5px;
+    color: var(--light-primary);
+    padding: 0px 25px;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: var(--bg-dark);
+    color: var(--light-secondary);
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
 }
